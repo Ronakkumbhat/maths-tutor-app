@@ -10,15 +10,18 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    english_tutor.cpp \
     main.cpp \
     mainwindow.cpp \
     welcomepage.cpp
 
 HEADERS += \
+    english_tutor.h \
     mainwindow.h \
     welcomepage.h
 
 FORMS += \
+    english_tutor.ui \
     mainwindow.ui \
     welcomepage.ui
 # Default rules for deployment.
